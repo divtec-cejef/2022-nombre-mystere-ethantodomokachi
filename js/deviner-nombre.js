@@ -19,7 +19,7 @@
         return Math.floor(Math.random() * (max - min) + min);
     }
 
-    const nbMystere = tireNombre(1, 100);
+    let nbMystere = tireNombre(1, 100);
     let reponse;
     let nbEssais = 0;
 
